@@ -1,0 +1,837 @@
+/*
+Erkam Karaoglan
+Web Designer
+Creative Ajans: www.digitalkure.com ;
+Freelancer: www.kurekod.com ;
+Mailto: erkam@kurekod.com ;
+*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
+@import url("../font/Bahnschrift/style.css");
+@import url("../font/Freehand/style.css");
+body {
+  font-family: "Bahnschrift", sans-serif;
+}
+
+a,
+a:active,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+a:focus,
+a:active,
+button:focus,
+button:active,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none !important;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+section {
+  padding: 30px 0px;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+::selection {
+  color: #000;
+  background: #dbdbdb;
+}
+
+::-moz-selection {
+  color: #000;
+  background: #dbdbdb;
+}
+
+::-webkit-input-placeholder {
+  color: #6f6f6f;
+  text-overflow: ellipsis;
+}
+
+::-moz-placeholder {
+  color: #6f6f6f;
+  text-overflow: ellipsis;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #6f6f6f;
+  text-overflow: ellipsis;
+  opacity: 1;
+}
+
+:focus {
+  outline: 0 !important;
+}
+
+.margin-b-0 {
+  margin-bottom: 0px;
+}
+
+header nav {
+  background: #fff;
+}
+header .navbar .navbar-brand {
+  font-size: 30px;
+}
+header .navbar .nav-link {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #555555 !important;
+}
+header .fa-bars {
+  color: #ed1c24;
+  font-size: 30px;
+}
+
+.topheader {
+  padding: 10px 0;
+  background: #ed1c24;
+}
+.topheader .container {
+  position: relative;
+}
+.topheader .cont1 {
+  display: table;
+}
+.topheader .cont1 li {
+  float: left;
+  margin-right: 15px;
+}
+.topheader .cont1 li a {
+  color: #fff;
+  font-size: 12px;
+}
+.topheader .cont2 {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+.topheader .cont2 li {
+  float: left;
+  margin-left: 10px;
+}
+.topheader .cont2 li a {
+  color: #fff;
+}
+
+.slider {
+  padding: 0;
+}
+.slider .sliderRR {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px;
+}
+.slider .sliderRR h4 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 41px;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+.slider .sliderRR a {
+  background: #ed1c24;
+  display: table;
+  color: #fff;
+  padding: 10px 30px;
+  transition: .5s;
+}
+.slider .sliderRR a:hover {
+  background: #960e12;
+}
+.slider #owl-slider .owl-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.araclar {
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+.araclar #owl-araclar .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.araclar #owl-araclar .owl-nav .owl-prev {
+  left: -55px;
+}
+.araclar #owl-araclar .owl-nav .owl-next {
+  right: -55px;
+}
+.araclar #owl-araclar .owl-nav button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #d4494a;
+  color: #fff;
+}
+.araclar #owl-araclar .owl-dots {
+  margin: 0;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.araclar .urunCar img {
+  width: 100%;
+}
+.araclar .urunCar .ic {
+    background: #ed1c24;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    height: 95px;
+    overflow: hidden;
+}
+.araclar .urunCar .ic h4 {
+  font-size: 18px;
+}
+.araclar .urunCar .ic span {
+  font-size: 12px;
+}
+.araclar .urunCar .ic a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #aa151a;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 67px;
+  transition: .5s;
+}
+.araclar .urunCar .ic:hover a {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.baslik {
+  text-align: center;
+  display: table;
+  position: relative;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.baslik:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: 100px;
+  height: 3px;
+  background: #000;
+}
+
+.rezervasyon {
+  background: #aa151a;
+  padding: 70px 0;
+  position: relative;
+}
+.rezervasyon:before {
+  content: '';
+  position: absolute;
+  left: 35%;
+  top: 20px;
+  width: 192px;
+  height: 87%;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.rezervasyon h4 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 20px;
+  position: relative;
+}
+.rezervasyon h4:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background: #fff;
+  bottom: -3px;
+}
+.rezervasyon p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 15px;
+}
+.rezervasyon form .form-group {
+  margin-bottom: 30px;
+}
+.rezervasyon form .form-group .form-control {
+  border-radius: 0px;
+  margin: 0px;
+  border: none;
+  height: 45px;
+}
+.rezervasyon form .form-group .form-control::placeholder {
+  color: #696767;
+}
+.rezervasyon form .form-group .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+.rezervasyon form button {
+  background: #fff;
+  width: 100%;
+  display: table;
+  text-align: center;
+  height: 45px;
+  line-height: 44px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .5s;
+}
+.rezervasyon form button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.nelerYaptik .ic {
+  position: relative;
+}
+.nelerYaptik .ic img, .hizmetlerPAGE .ic img{    
+    display: block;
+    width: inherit;
+    width: 100%;
+    
+}
+.nelerYaptik .ic h3 {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(157, 28, 32, 0.836);
+}
+.nelerYaptik #owl-neler .owl-nav {
+  position: absolute;
+  top: 41%;
+  width: 100%;
+}
+.nelerYaptik #owl-neler .owl-nav .owl-prev {
+  left: -55px;
+}
+.nelerYaptik #owl-neler .owl-nav .owl-next {
+  right: -55px;
+}
+.nelerYaptik #owl-neler .owl-nav button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #d4494a;
+  color: #fff;
+}
+.nelerYaptik #owl-neler .owl-dots {
+  margin: 0;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hemenCALL {
+  padding: 50px 0;
+  background: #ed1c24;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+.hemenCALL h4 {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+.hemenCALL a {
+  width: 100%;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.markalar {
+  background: #d1d1d1;
+}
+.markalar #owl-markalar .owl-nav {
+  position: absolute;
+  top: 41%;
+  width: 100%;
+}
+.markalar #owl-markalar .owl-nav .owl-prev {
+  left: -55px;
+}
+.markalar #owl-markalar .owl-nav .owl-next {
+  right: -55px;
+}
+.markalar #owl-markalar .owl-nav button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #d4494a;
+  color: #fff;
+}
+.markalar #owl-markalar .owl-dots {
+  margin: 0;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer {
+  background: #9d9d9d;
+  padding: 30px 0;
+}
+footer .sosyalMedya {
+  margin: 0 auto;
+  display: table;
+}
+footer .sosyalMedya li {
+  float: left;
+}
+footer .sosyalMedya li a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 30px;
+  display: block;
+  background: #4f4f4f;
+  color: #fff;
+  margin-left: 10px;
+}
+footer .menuFooter {
+  width: 100%;
+}
+footer .menuFooter ul {
+  margin: 0 auto;
+  display: table;
+  padding-top: 30px;
+}
+footer .menuFooter ul li {
+  float: left;
+}
+footer .menuFooter ul li a {
+  margin: 0px 10px;
+  color: #656565;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.footer-alt {
+  padding: 20px 0;
+  background: #656565;
+}
+.footer-alt p {
+  text-align: center;
+  color: #cccccc;
+}
+
+.tophedic {
+  padding: 0px;
+  position: relative;
+}
+.tophedic img {
+  width: 100%;
+}
+.tophedic .container {
+  position: relative;
+}
+.tophedic .breactum {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  background: #ed1c24;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.tophedic .breactum ul li {
+  float: left;
+}
+.tophedic .breactum ul li a {
+  color: #fff;
+  margin: 0 5px;
+  padding: 0 5px;
+  position: relative;
+}
+.tophedic .breactum ul li a:before {
+  content: '/';
+  position: absolute;
+  right: -6px;
+  bottom: -4px;
+}
+.tophedic .breactum ul li:last-child a:before {
+  content: none;
+}
+
+.contentSayfa .icSyf {
+  border: 1px solid #eee;
+}
+.contentSayfa .icSyf h5 {
+  background: #eee;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.contentSayfa .icSyf p {
+  padding: 10px 20px;
+  font-weight: 300;
+}
+
+.sidebar h3 {
+  background: #ed1c24;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px;
+  letter-spacing: 3px;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+.sidebar ul li a {
+  display: table;
+  background: #efefef;
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid #fff;
+  position: relative;
+}
+.sidebar ul li a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0px;
+  height: 100%;
+  background: #ed1c24;
+  transition: .5s;
+}
+.sidebar ul li a:hover:before {
+  width: 2px;
+}
+
+.araclarPAGE .urunCar {
+  margin-bottom: 30px;
+}
+.araclarPAGE .urunCar img {
+    width: 100%;
+
+}
+.araclarPAGE .urunCar .ic {
+    background: #ed1c24;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    height: 95px;
+    overflow: hidden;
+}
+.araclarPAGE .urunCar .ic h4 {
+  font-size: 18px;
+}
+.araclarPAGE .urunCar .ic span {
+  font-size: 12px;
+}
+.araclarPAGE .urunCar .ic a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #aa151a;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 67px;
+  transition: .5s;
+}
+.araclarPAGE .urunCar .ic:hover a {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.araclarPAGE .AramaAracDetay {
+  padding: 20px;
+  border: 1px solid #eee;
+  margin-top: 30px;
+  text-align: center;
+  background: #ed1c24;
+  color: #fff;
+}
+.araclarPAGE .AramaAracDetay b {
+  font-size: 25px;
+  padding: 20px 0px;
+  display: table;
+  margin: 0 auto;
+}
+.araclarPAGE .AramaAracDetay b i {
+  transform: rotate(20deg);
+}
+.araclarPAGE .aracDetay {
+  border: 1px solid #eee;
+  padding: 20px;
+}
+.araclarPAGE .aracDetay h1 {
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 14px;
+  text-transform: uppercase;
+  color: #333;
+}
+.araclarPAGE .aracDetay table {
+  width: 100%;
+  padding: 10px;
+  margin-top:20px;
+  border: 1px solid #eee;
+}
+.araclarPAGE .aracDetay table td {
+  border: 1px solid #eee;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.araclarPAGE .aracDetay table td h2 {
+  font-size: 22px;
+}
+
+.hizmetlerPAGE .ic {
+  position: relative;
+  margin-bottom: 30px;
+}
+.hizmetlerPAGE .ic img {
+  width: 100%;
+}
+.hizmetlerPAGE .ic h3 {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(157, 28, 32, 0.836);
+}
+
+.rezervasyonDetay {
+  padding: 20px;
+  border: 1px solid #eee;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+.rezervasyonDetay h4 {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.rezervasyonDetay form .form-group {
+  margin-bottom: 20px;
+}
+.rezervasyonDetay form .form-group .form-control {
+  border-radius: 0px;
+  margin: 0px;
+  border: 1px solid #eee;
+  height: 45px;
+}
+.rezervasyonDetay form .form-group .form-control::placeholder {
+  color: #696767;
+}
+.rezervasyonDetay form .form-group .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+.rezervasyonDetay form a {
+  background: #ed1c24;
+  width: 100%;
+  display: table;
+  text-align: center;
+  height: 45px;
+  line-height: 44px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .5s;
+  border: 1px solid #ed1c24;
+  color: #fff;
+}
+.rezervasyonDetay form a:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.iletisim .Left {
+  border: 1px solid #eee;
+  text-align: left;
+  padding: 30px;
+}
+.iletisim .Left h2 {
+  font-size: 22px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+.iletisim .Left ul li {
+  margin-bottom: 10px;
+}
+.iletisim .Right {
+  padding: 30px;
+  border: 1px solid #eee;
+}
+.iletisim .Right h2 {
+  font-size: 22px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+.iletisim .Right form .form-group .form-control {
+  border-radius: 0px;
+}
+.iletisim .Right form .form-group .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(237, 28, 35, 0.342);
+  border-color: #ed1c24;
+}
+.iletisim .Right form button {
+  background: #ed1c24;
+  border-color: #ed1c24;
+  border-radius: 0px;
+}
+
+@media screen and (max-width: 720px) {
+  .topheader {
+    display: none;
+  }
+
+  .slider .sliderRR {
+    padding: 135px 25px;
+  }
+
+  .araclar {
+    margin-bottom: 0px;
+  }
+  .araclar .urunCar {
+    padding: 30px;
+  }
+  .araclar #owl-araclar .owl-nav {
+    position: absolute;
+    bottom: 13px;
+    width: 78px;
+    left: 50%;
+    top: inherit;
+    transform: translateX(-50%);
+  }
+  .araclar #owl-araclar .owl-nav .owl-prev {
+    left: -5px;
+  }
+  .araclar #owl-araclar .owl-nav .owl-next {
+    right: -5px;
+  }
+  .araclar #owl-araclar .owl-dots {
+    display: none;
+  }
+
+  .nelerYaptik #owl-neler .owl-nav {
+    position: absolute;
+    bottom: -18px;
+    width: 78px;
+    left: 50%;
+    top: inherit;
+    transform: translateX(-50%);
+  }
+  .nelerYaptik #owl-neler .owl-nav .owl-prev {
+    left: -5px;
+  }
+  .nelerYaptik #owl-neler .owl-nav .owl-next {
+    right: -5px;
+  }
+  .nelerYaptik #owl-neler .owl-dots {
+    display: none;
+  }
+
+  .markalar #owl-markalar .owl-nav {
+    display: none;
+  }
+  .markalar #owl-markalar .owl-dots {
+    display: none;
+  }
+
+  .margin-b-0 {
+    margin-bottom: 15px;
+  }
+
+  .rezervasyon p {
+    margin-bottom: 15px;
+  }
+
+  footer .menuFooter ul li {
+    float: inherit;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-alt p {
+    font-size: 13px;
+  }
+
+  .sidebar {
+    margin-bottom: 30px;
+  }
+
+  .araclarPAGE .col-md-3 {
+    float: right;
+    margin-top: 177%;
+  }
+  .araclarPAGE .col-md-9 {
+    float: left;
+    background: #fff;
+    position: absolute;
+  }
+
+  .iletisim .Left {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

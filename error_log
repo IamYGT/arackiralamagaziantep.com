@@ -1,0 +1,170 @@
+[03-May-2018 15:57:54 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[03-May-2018 15:58:20 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[03-May-2018 16:01:57 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[03-May-2018 16:02:31 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[03-May-2018 17:30:31 Europe/Istanbul] PHP Warning:  include(/home/asyahali1/public_html/yeni/include/Request.php): failed to open stream: Permission denied in /home/asyahali1/public_html/yeni/index.php on line 3
+[03-May-2018 17:30:31 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/asyahali1/public_html/yeni/include/Request.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/asyahali1/public_html/yeni/index.php on line 3
+[03-May-2018 17:30:31 Europe/Istanbul] PHP Warning:  include(/home/asyahali1/public_html/yeni/include/Ayarlar.php): failed to open stream: Permission denied in /home/asyahali1/public_html/yeni/index.php on line 4
+[03-May-2018 17:30:31 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/asyahali1/public_html/yeni/include/Ayarlar.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/asyahali1/public_html/yeni/index.php on line 4
+[03-May-2018 17:30:31 Europe/Istanbul] PHP Fatal error:  Class 'Request' not found in /home/asyahali1/public_html/yeni/index.php on line 5
+[03-May-2018 17:31:19 Europe/Istanbul] PHP Warning:  include(/home/asyahali1/public_html/yeni/vendor/autoload.php): failed to open stream: Permission denied in /home/asyahali1/public_html/yeni/Loader.php on line 3
+[03-May-2018 17:31:19 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/asyahali1/public_html/yeni/vendor/autoload.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/asyahali1/public_html/yeni/Loader.php on line 3
+[03-May-2018 17:31:19 Europe/Istanbul] PHP Fatal error:  Class 'Doctrine\DBAL\Configuration' not found in /home/asyahali1/public_html/yeni/include/Database.php on line 39
+[04-May-2018 00:17:59 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-May-2018 00:18:00 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-May-2018 10:57:23 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-May-2018 10:57:55 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-May-2018 11:01:13 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-May-2018 11:03:47 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-May-2018 11:12:42 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[05-May-2018 21:20:47 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[08-May-2018 18:14:15 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[01-Jun-2018 14:25:15 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-Jun-2018 11:26:00 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[04-Jun-2018 15:04:06 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[13-Jun-2018 14:56:15 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[08-Jul-2018 17:50:17 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[23-Jul-2018 14:07:48 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sira ASC' at line 1' in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php:91
+Stack trace:
+#0 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php(91): PDOStatement->execute(NULL)
+#1 /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php(168): Doctrine\DBAL\Driver\PDOStatement->execute(NULL)
+#2 /home/asyahali1/public_html/yeni/include/Database.php(84): Doctrine\DBAL\Statement->execute()
+#3 /home/asyahali1/public_html/yeni/view/default/sayfa/kurumsal.php(111): Database\Data->sorgu('SELECT *, basli...')
+#4 /home/asyahali1/public_html/yeni/include/FrontClass.php(265): include('/home/asyahali1...')
+#5 /home/asyahali1/public_html/yeni/Loader.php(103): Fr in /home/asyahali1/public_html/yeni/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 90
+[16-Oct-2018 15:05:14 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Image file not found: upload/no-urun2.jpg' in /home/plastiymcom/public_html/yeni/vendor/masterexploder/phpthumb/src/PHPThumb/PHPThumb.php:61
+Stack trace:
+#0 /home/plastiymcom/public_html/yeni/vendor/masterexploder/phpthumb/src/PHPThumb/GD.php(89): PHPThumb\PHPThumb->__construct('upload/no-urun2...', Array, Array)
+#1 /home/plastiymcom/public_html/yeni/include/Functions.php(462): PHPThumb\GD->__construct('upload/no-urun2...', Array)
+#2 /home/plastiymcom/public_html/yeni/view/default/sayfa/koleksiyon.php(40): Fonksiyonlar\Func->resimal(1920, 250, 'no-urun2.jpg', 'upload/')
+#3 /home/plastiymcom/public_html/yeni/include/FrontClass.php(265): include('/home/plastiymc...')
+#4 /home/plastiymcom/public_html/yeni/Loader.php(176): FrontClass->_include('sayfa/koleksiyo...', Array, 'default/')
+#5 /home/plastiymcom/public_html/yeni/index.php(55): Loader->pageLoader(Array)
+#6 {main}
+  thrown in /home/plastiymcom/public_html/yeni/vendor/masterexploder/phpthumb/src/PHPThumb/PHPThumb.php on line 61

@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+#RewriteCond %{SERVER_PORT} !=443
+#RewriteRule ^ https://www.cigdemkids.com%{REQUEST_URI} [NS,R,L]
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L] # <--DON'T KNOW ABOUT THESE FLAGS
+
+RewriteRule tr/TEMIZLEME-VE-TAVLAMA-5.html$ index.php?page=urun-gruplari&katurl=temizleme-tavlama&id=1&lang=tr  [L]
+
+RewriteRule ^ajax/(.*)/(.*)\.html$ index.php?page=$1&type=ajax&katurl=$2 [L,NC]
+RewriteRule ^ajax/(.*)\.html$ index.php?page=$1&type=ajax [L,NC]
+
+RewriteRule ^en/(.*)/(.*)-([0-9]+)\.html$ index.php?page=$1&katurl=$2&id=$3&lang=en [L,NC]
+RewriteRule ^en/(.*).html$ index.php?page=$1&lang=en  [L,NC]
+RewriteRule ^en/(.*).html/([0-9]+)$ index.php?page=$1&lang=en&sayfa=$2 [L,NC]
+
+RewriteRule ^ar/(.*)/(.*)-([0-9]+)\.html$ index.php?page=$1&katurl=$2&id=$3&lang=ar [L,NC]
+RewriteRule ^ar/(.*).html$ index.php?page=$1&lang=ar  [L,NC]
+RewriteRule ^ar/(.*).html/([0-9]+)$ index.php?page=$1&lang=ar&sayfa=$2 [L,NC]
+
+
+
+RewriteRule ^ru/(.*)/(.*)-([0-9]+)\.html$ index.php?page=$1&katurl=$2&id=$3&lang=ru [L,NC]
+RewriteRule ^ru/институциональных/(.*)-([0-9]+)\.html$ index.php?page=kurumsal&katurl=$1&id=$2&lang=ru [L,NC]
+RewriteRule ^ru/(.*).html$ index.php?page=$1&lang=ru  [L,NC]
+RewriteRule ^ru/(.*).html/([0-9]+)$ index.php?page=$1&lang=ru&sayfa=$2 [L,NC]
+
+RewriteRule ^(.*)/(.*)/(.*)\.html$ index.php?page=$1&katurl=$2&urunurl=$3&lang=tr [L,NC]
+RewriteRule ^(.*)/(.*)-([0-9]+)\.html$ index.php?page=$1&katurl=$2&id=$3&lang=tr [L,NC]
+
+RewriteRule ^en/e-catalogue/$ index.php?page=e-katalog&lang=en&type=katalog [L]
+RewriteRule ^ar/e-catalogue/$ index.php?page=e-katalog&lang=ar&type=katalog [L]
+RewriteRule ^e-katalog/$ index.php?page=e-katalog&lang=tr&type=katalog [L]
+
+RewriteRule ^en/e-magazine/$ index.php?page=e-katalog&lang=en&type=dergi [L]
+RewriteRule ^ar/e-magazine/$ index.php?page=e-katalog&lang=ar&type=dergi [L]
+RewriteRule ^e-dergi/$ index.php?page=e-katalog&lang=tr&type=dergi [L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/(.*)\.html$ index.php?page=$2&lang=$1 [L]
+RewriteRule ^(.*)\.html$ index.php?page=$1&lang=tr [L]
+RewriteRule ^(.*)\.html/([0-9]+)$ index.php?page=$1&lang=tr&sayfa=$2 [L]
+ErrorDocument 404 /index.php?page=hata&lang=tr
+
+</IfModule>
+ 

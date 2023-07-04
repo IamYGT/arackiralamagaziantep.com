@@ -1,0 +1,16 @@
+{
+    "require": {
+        "google/recaptcha": "~1.1",
+        "phpmailer/phpmailer": "~5.2",
+        "dwoo/dwoo": "1.2.*",
+        "doctrine/migrations": "^1.4",
+        "google/apiclient": "^2.0",
+        "masterexploder/phpthumb": "^2.1",
+        "snowsoft/snow-captcha":"dev-master",
+        "samdark/sitemap": "^2.0",
+        "robmorgan/phinx": "^0.8.0"
+
+
+
+    }
+}

@@ -1,0 +1,21 @@
+<?php
+$cmd = isset($argv[1]) ? $argv[1]:null;
+ switch($cmd):
+ case 'help':
+ default:
+echo 'Ornek Komut : ModulEkle Modulismi';
+ break;
+
+case 'ModulEkle':
+$modulFolder = 'modules/';
+$modulTempFile = 'system/Template/Modul.tmp';
+$dosyaIsmi = ((isset($argv[2])) ? $argv[2]:null);
+if($dosyaIsmi and !file_exists($modulFolder.$dosyaIsmi.'.php')):
+$tempFile = str_replace('ModulName',ucwords(strtolower($dosyaIsmi)),file_get_contents($modulTempFile));
+file_put_contents($modulFolder.ucwords(strtolower($dosyaIsmi)).'.php',$tempFile);
+else:
+echo 'Modul var';
+endif;
+break;
+endswitch;
+ ?>

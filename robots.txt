@@ -1,0 +1,11 @@
+# robots.txt 
+ 
+User-agent: *
+Disallow:
+
+
+
+# Website Sitemap
+
+Sitemap: https://www.arackiralamagaziantep.com/sitemap.xml
+

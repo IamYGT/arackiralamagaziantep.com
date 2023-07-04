@@ -1,0 +1,1 @@
+<?=((isset($helper) ? '<span class="help-block" style="clear: both; width: 100%;">'.$helper.'</span>'.PHP_EOL.PHP_EOL :''))?>

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.display-hide { display: none;}
+
+
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+}
+
+ .ui-sortable-helper { cursor: move !important; border: 1px solid #dedede; width: 100%;   		top:0px;  background: #fff ;}
+.ui-sortable-helper td:nth-child(1) { width: 4% !important;}
+.ui-sortable-helper td:nth-child(2) { width: 80% !important;}
+.ui-sortable-helper td:nth-child(3) { width: 15% !important;}
+
+#yukleme {
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-indent: 10px;
+    float: right;
+    border: 1px solid #dedede;
+    color: #c20000;
+    margin-bottom: 10px;
+}
+#pickfiles {
+    float: right; margin-right: 10px;}
+
+#filelist {
+    width: 70%;
+    height: 130px;
+    float: right;
+    border: 1px solid #dedede;
+    overflow: hidden;
+    overflow-y: scroll;;
+
+}
+
+#filelist div { width: 100%;
+    line-height:30px;
+    border:1px solid #dedede;}
+
+
+.imgresim { margin-bottom: 20px; padding: 10px; background-color: #fff; border:1px solid #dedede; max-width: 500px}
+
+.tab-content .control-label { padding-left: 6px!important;}
+
+ #ar input , #ar textarea , #ar select { direction: rtl;}
+
+ span.select2 { width: 100% !important;}
+
+
+.fileuploader-input-caption {
+
+    position: relative;
+    display: inline-block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    padding: 10px 15px;
+    margin-right: 15px;
+    /* background: #fff; */
+    /* border: 1px solid #dde4f6; */
+    border-radius: 4px;
+    color: #94a2e8;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width: 74%;
+    margin-top: 10px;
+    clear: both;
+}
+
+.fileuploader-input-inner {
+
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+

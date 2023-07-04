@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'TR Freehand591';
+    src: url('TRFreehand591.woff2') format('woff2'),
+        url('TRFreehand591.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
